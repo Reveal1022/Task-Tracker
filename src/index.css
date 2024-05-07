@@ -1,0 +1,76 @@
+.container {
+  height: 30rem;
+  width: 23rem;
+  border: 1.5px solid rgb(230, 243, 242);
+  margin: auto;
+  overflow:scroll;
+}
+
+h3, p {
+  margin: 0;
+}
+
+
+.head{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 4rem;
+  display: flex;
+align-items: center;
+justify-content:space-between;
+  border: 1px solid white;
+  padding:10px 15px ;
+}
+
+.Btn{
+  height: 2rem;
+  width: 5rem;
+  background-color: yellow;
+  border: 1.5px solid grey;
+  cursor: pointer;
+}
+
+
+.listharu {
+  padding: 30px;
+}
+
+.mytask{
+  padding: 10px 15px ;
+  height: 3rem;
+  font-family:'Times New Roman', Times, serif;
+  background-color: aliceblue;
+  margin: 10px;
+  }
+
+  .mytask h3{
+    font-family:sans-serif ;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+
+  
+
+  .addtask {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  
+  .addtask input {
+    border: 1px solid grey;
+    padding: 5px;
+    margin : 10px 0px;
+  }
+
+  .save_btn{
+    font-size: 1rem;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: yellow;
+  }
